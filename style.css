@@ -1,0 +1,47 @@
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-style: solid;
+    border-color:#ff7c25;
+    box-shadow: 6px 6px 12px rgb(250, 196, 19);
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    background:rgb(0, 0, 0);
+    
+}
+
+.button{
+    width: 60px;
+    height: 60px;
+    font-size: 35px;
+    margin: 4px;
+    cursor: pointer;
+    border-color:#fcfbfa;
+    height: 50px;
+    border-radius: 50%;
+    background-color: lightpink;
+}
+
+.button:hover{
+    background: rgb(252, 125, 7);
+    opacity: 0.5;
+    color: lemonchiffon;
+}
+
+.textview{
+    width: 265px;
+    height: 40px;
+    margin: 5px;
+    padding: 5px;
+    font-size: 25px;
+    background-color: lightpink;
+}
+
+.bg{
+    width: 100%;
+    height: 97vh;
+    background-image: image("x.jpg");
+    background: linear-gradient(to left,skyblue,white,black);
+}
+
